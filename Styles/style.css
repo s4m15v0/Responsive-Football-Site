@@ -1,0 +1,53 @@
+body {
+    font-family: 'Andada Pro', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.team-btn {
+    font-size: 16px;
+    background-color: #E02C6D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.team-btn .fas {
+    margin-left: 8px;
+}
+
+.team-btn:hover {
+    background-color: #ff005dcc;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2D25A0;
+    padding-bottom: 53px;
+    padding-top: 153px;
+}
+
+.header-title h2 {
+    color: #fff;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.header-banner img {
+    width: 556.01px;
+    height: 438px;
+}
+
+.header-banner {
+    transition: 0.5s;
+}
+
+.header-banner:hover {
+    transform: translateY(-10px);
+}
